@@ -17,10 +17,49 @@ body {
 
 main {
   background-color: #ffffff;
-  margin: 5rem;
+  margin: 4rem 7rem;
   padding: 4rem;
 }
 
 header {
   text-align: center;
+}
+
+.logo {
+  width: 350px;
+}
+
+.pokrm {
+  display: flex;
+}
+
+.pokrm__popis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.pokrm__fotka {
+  width: 300px;
+}
+
+.nabidka {
+  text-align: center;
+}
+
+.nabidka__fotky {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.nabidka__fotky img {
+  width: 30%;
+}
+
+.pokrm__btn {
+  background-color: #ffefef;
+  border: none;
+  padding: 1rem;
 }
