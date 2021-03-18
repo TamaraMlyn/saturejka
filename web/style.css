@@ -33,11 +33,20 @@ header {
   display: flex;
 }
 
+.pokrm__reverse {
+  flex-direction: row-reverse;
+}
+
+
 .pokrm__popis {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 5rem;
+}
 
+.pokrm__popis--reverse {
+  justify-content: right;
 }
 
 .pokrm__fotka {
@@ -62,4 +71,24 @@ header {
   background-color: #ffefef;
   border: none;
   padding: 1rem;
+  width: 10rem;
+}
+
+.obsah {
+  display: flex;
+  justify-content: space-between;
+}
+
+.obsah__sloupec {
+  flex-basis: 45%;
+  text-align: left;
+}
+
+p {
+  margin: 3rem 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0 300px 50px 300px;
 }
